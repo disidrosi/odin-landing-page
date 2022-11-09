@@ -114,7 +114,6 @@ header {
 }
 
 .info-title {
-    /*  */
     font-size: 36px;
     color: #1F2937;
     font-weight: 700;
@@ -122,8 +121,9 @@ header {
 }
 
 .info-cards { 
+    width: 700px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     gap: 32px;
 }
@@ -147,3 +147,28 @@ header {
     text-align: center;
 }
 
+.quote-container { 
+    background-color: #E5E7EB;
+}
+
+.quote { 
+    width: 700px;
+    margin: 0 auto;
+    padding: 72px 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote-text { 
+    font-style: italic;
+    font-weight: 400;
+    font-size: 36px;
+    flex: 1;
+}
+
+.quote-author { 
+    align-self: flex-end;
+    font-weight: 700;
+    font-size: 24px;
+}
