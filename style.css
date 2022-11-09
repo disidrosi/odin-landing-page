@@ -82,7 +82,6 @@ header {
 }
 
 .sign-up {
-    /*  */
     background-color: #3882F6;
     color: #E5E7EB;
     font-size: 18px;
@@ -145,6 +144,8 @@ header {
 
 .card-text {
     text-align: center;
+    font-size: 18px;
+    font-weight: 300;
 }
 
 .quote-container { 
@@ -171,4 +172,39 @@ header {
     align-self: flex-end;
     font-weight: 700;
     font-size: 24px;
+}
+
+.cta { 
+    width: 900px;
+    height: 150px;
+    margin: 32px auto;
+    padding: 72px 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882F6;
+    border-radius: 16px;
+    gap: 32px;
+}
+
+.cta-left { 
+    color: #F9FAF8;
+}
+
+.cta-text { 
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.cta-button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    border: 2px solid #F9FAF8;
+    text-align: center;
+    cursor: pointer;
+    padding: 8px 32px;
+    border-radius: 8px;
 }
