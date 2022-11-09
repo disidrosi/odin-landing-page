@@ -41,3 +41,62 @@ header {
     gap: 16px;
 }
 
+.hero-container {
+    background-color: #1F2937;
+}
+
+.hero { 
+    width: 900px;
+    margin: 0 auto;
+    padding: 72px 18px;
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+.hero-left,
+.hero-image { 
+    flex: 1;
+}
+
+.hero-left {
+    /*  */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.hero-title { 
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: bolder;
+}
+
+.hero-text { 
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.sign-up {
+    /*  */
+    background-color: #3882F6;
+    color: #E5E7EB;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    padding: 8px 32px;
+    border-radius: 8px;
+}
+
+.hero-image {
+    background-color: grey;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
